@@ -1,3 +1,4 @@
+## con este simbolo de gato se realizan comnetarios en python
 print("Bienvenido")
 
 n1=int(input("Ingresa un numero "))
