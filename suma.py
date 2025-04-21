@@ -13,3 +13,7 @@ print("La suma de ambos numeros es: ",suma)
 #Operador para realizar reesta 
 resta=n1-n2
 print("El resultado de restar ",n1," con ",n2," es ",resta)
+
+#Operador para realizar multiplicacion
+multi=n1*n2
+print("El resultado de multiplicar los numeros dados es: ",multi)
