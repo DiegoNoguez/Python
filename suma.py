@@ -17,3 +17,7 @@ print("El resultado de restar ",n1," con ",n2," es ",resta)
 #Operador para realizar multiplicacion
 multi=n1*n2
 print("El resultado de multiplicar los numeros dados es: ",multi)
+
+#operador de division en python
+division=n1/n2
+print("El resultado de la división de los números ingresados es:",division)
