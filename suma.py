@@ -1,7 +1,7 @@
 ## con este simbolo de gato se realizan comnetarios en python
 print("Bienvenido")
 
-n1=int(input("Ingresa un numero "))
+n1=int(input("Ingresa un numero ")) #La entrada es de un tipo de dato entero 
 n2=int(input("Ingresa otro nunero "))
 
 print("Los numeros ingresados son los siguientes",n1 ,n2)
