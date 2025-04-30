@@ -20,3 +20,5 @@ print(type(cadena))
 booleano=True 
 print(booleano)
 print(type(booleano))
+
+##estos son todos lso tipos de datos en python 
