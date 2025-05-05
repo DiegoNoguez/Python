@@ -19,5 +19,7 @@ multi=n1*n2
 print("El resultado de multiplicar los numeros dados es: ",multi)
 
 #operador de division en python
+#la division actual solo esta dividiendo e forma comun es decir mostrara los decimales 
+#y con // solo mostrara la crifra entera 
 division=n1/n2
 print("El resultado de la división de los números ingresados es:",division)
