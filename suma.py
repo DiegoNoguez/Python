@@ -23,3 +23,5 @@ print("El resultado de multiplicar los numeros dados es: ",multi)
 #y con // solo mostrara la crifra entera 
 division=n1/n2
 print("El resultado de la división de los números ingresados es:",division)
+
+print("El resultado de todas la operaciones de manera jerarquica es: \n", suma, "\n", resta ,"\n", multi, "\n", division)
