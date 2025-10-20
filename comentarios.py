@@ -2,3 +2,4 @@
 #Nombre
 nombre="Sergio"
 #nombre es una variable de tipo String o cadena 
+# Yes todo en python 
