@@ -21,4 +21,4 @@ booleano=True
 print(booleano)
 print(type(booleano))
 
-##estos son todos lso tipos de datos en python 
+##estos son la mayoria de los tipos de datos en python 
