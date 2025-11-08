@@ -1,4 +1,6 @@
 #TIPOS DE DATOS existentes en python 
+# Importacion de las librerias que se ocupan en este script
+import math
 
 #tipo entero
 numero=50
@@ -22,3 +24,6 @@ print(booleano)
 print(type(booleano))
 
 ##estos son la mayoria de los tipos de datos en python 
+
+# Definiciones de contantes en python usando la que integra el propio lenguaje
+print("Esta es una cosntante de python ", math.pi)
