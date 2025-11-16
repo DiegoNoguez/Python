@@ -7,6 +7,8 @@
 
     Reultado final
     email: nombreusuario@empresa.dominio
+    Los datos mostrados son de ejemplo y solo 
+    se usa para reforzar el ejercicio de funciones con cadenas o Strings 
     """
 
 #Definicion de varibales 
