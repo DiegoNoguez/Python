@@ -1,6 +1,6 @@
 # Conversion de una cadena de minusculas a mayusculas y viceversa
 # con el metodo upper
-frase= 'hola, soy springy, y tu?'
+frase= 'hola, soy Springy, y tu?'
 
 # forma de hacerlo con dos variables 
 mayus = frase.upper()
