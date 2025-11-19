@@ -10,7 +10,7 @@
     """
 
 #Definicion de varibales 
-nombreUs="Diego Arturo Noguez Lopez"
+nombreUs=" Diego Arturo Noguez Lopez "
 empresa = "Global Mentoring"
 dominioExtends = ".com.mx"
 guiones = '-'
@@ -18,9 +18,10 @@ guiones = '-'
 # Desarollo de la logica
 # Normalizacion de nombre de usuario y de empresa
 # Nombre de usuario
-nombreMinus= nombreUs.lower().replace(' ','.')
+usuario = nombreUs.strip() #Quita espacios al incio y final de una cadena.
+usurio = usuario.replace(' ','.').lower()
 # Dominio de email
-empresaNom = empresa.lower().replace(' ', '.')
+empresaNom = empresa.lower().replace(' ', '')
 dominioNom=empresaNom + dominioExtends
 # Repeticion de guiones
 repetir = guiones * 4
@@ -28,10 +29,10 @@ repetir = guiones * 4
 # impresion 
 print(f'{repetir} Generador de Email {repetir}')
 print(f'Nombre de Usuario: {nombreUs}')
-print(f'Nombre normalizado: {nombreMinus}')
+print(f'Nombre normalizado: {usurio}')
 print()
 print(f'Nombre de la empresa: {empresa}')
 print(f'Extension del dominio: {dominioExtends}')
 print(f'Dominio de eamil: @{dominioNom}')
 print()
-print(f'Email final generado: {nombreMinus}@{dominioNom}')
+print(f'Email final generado: {usurio}@{dominioNom}')
