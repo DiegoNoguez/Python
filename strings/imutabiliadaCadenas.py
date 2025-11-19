@@ -8,3 +8,6 @@ nuevoUsuario = usuario.upper()
 print(nuevoUsuario)
 print(usuario)
 
+# pasarlo a minúscula 
+print(usuario.lower())
+
