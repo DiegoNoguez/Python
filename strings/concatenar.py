@@ -7,6 +7,7 @@ despedida = 'adios'
 print(saludo)
 
 fraseCompleta = saludo + nombre
+print(saludo+nombre)
 
 # Si se intenta concatenaer con numeros python retorna errores 
 # la forma correcta de hacerlo es 
