@@ -13,5 +13,19 @@ dis = "-"
 # Desarollo de la logica
 disRep = dis * 3
 
+
+
 # Impresion de los datos
 print(f'{disRep} Sistema de Empelados {disRep}')
+nombreEmpleado = input("Nombre empleado: ")
+edadEmpleado = int(input("Edad del empleado; "))
+salarioEmpleado = int(input("Salario del empleado: "))
+esJefe = input("Es jefe de depertamento (si/np) ")
+esJefe  = esJefe.lower() == 'si'
+
+# Impresion de los valores Empleado
+print('\nDatos del empleado')
+print(f'Nombre: {nombreEmpleado}')
+print(f'Edad: {edadEmpleado}')
+print(f'Salario: {salarioEmpleado:.2f}')
+print(f'Es jefe de Departamento: {esJefe}')
