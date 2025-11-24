@@ -18,3 +18,10 @@ print(f'Valores originales de x, y {x}, y y vale{y}')
 
 x, y = y, x 
 print(f'Valores dado de x, y {y}, y x vale{x}')
+
+
+# Recibir multiples valores por entrada de usuario 
+nombre, apellido  = input("Ingresa tu nombre y apellido seprados por una coma: ").split(',')
+
+print(f'Tu nombre es: {nombre}')
+print(f'TU apellido es: {apellido}')
