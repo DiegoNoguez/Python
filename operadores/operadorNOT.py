@@ -1,4 +1,5 @@
 # Ejemplo de operador not
+# Expresado de una manera sencilla 
 
 separador = "-"
 separador = separador * 4
