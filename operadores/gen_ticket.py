@@ -10,5 +10,6 @@ pan = float(input('Ingrea el precio del pan:'))
 # Calculo del subtotoal sin impuestos 
 subtotal = soda+pan
 print(f'El subtotal es {subtotal}')
-total = subtotal*0.16
+impuesto = subtotal*0.16
+total = impuesto +subtotal
 print(f'El total a pagar ya con impuestos es {total}')

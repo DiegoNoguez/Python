@@ -11,3 +11,5 @@ print(f'Resultado de a==b es: {reulstado}')
 # OPerador diferente !=
 reulstado = a!=b
 print(f'A es distinto de b {reulstado}')
+
+# Y los operadores de < > <= >= 
