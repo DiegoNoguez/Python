@@ -1,6 +1,6 @@
 """
 Creación de una apliacion de consola para simular una apliación fitnes con el 
-uso de estructuras condicionales 
+uso de estructuras condicionales if o operador ternario 
 """
 # Constantes 
 META_PASOS = 10000
