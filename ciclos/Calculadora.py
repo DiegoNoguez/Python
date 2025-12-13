@@ -22,5 +22,22 @@ while not salir:
         num2 = int(input("Ingresa el segundo número: "))
         resta = num1 - num2
         print(f'El resultado de la operación es: {resta}')
-    
+    elif opcion == 3:
+        num1 = int(input("Ingresa un número: "))
+        num2 = int(input("Ingresa el segundo número: "))
+        multi = num1 * num2
+        print(f'El resultado de la operación es: {multi}')
+    elif opcion == 4:
+        num1 = int(input("Ingresa un número: "))
+        num2 = int(input("Ingresa el segundo número: "))
+        if num2 > 0 :
+            divid = num1/num2
+            print(f'El resultado de la operación es: {divid}')
+        else:
+            print(f'Division por cero no existe.') 
+    elif opcion == 5:
+        print("Adios, saliendo del sistema.")
+        salir = True
+    else :
+        print(f'Opcion no valida ni registrada: {opcion}')
     print("\n")
