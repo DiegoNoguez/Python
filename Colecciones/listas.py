@@ -19,3 +19,20 @@ print(f'{mi_lista} Se agrego el elemento 6')
 # cON INSERT UN NUEVO ELEMENTO ESPECIFICO 
 mi_lista.insert(2,15)
 print(f'{mi_lista} Se añadio el valor de 15 en el indice 2')
+
+# Eliminar elementos de una lista
+# usando el metodo remove 
+mi_lista.remove(5)
+print(f'{mi_lista} Se removio el valor 5 mas no el indice')
+
+# remover por indice con el metodo pop 
+mi_lista.pop(1) # Remueve el elemento del indice 1
+print(f'{mi_lista} Se elimino el indice 1')
+
+# Eliminar usando la palabra del
+del mi_lista[2]
+print(f'{mi_lista} Se elimino el indice 2 de la lista')
+
+# Obtener sublistaas
+sublista = mi_lista[:3] # obtiene el indice 0 al 2
+print(f'{sublista} La sublista contiene los indices de 0 al 2')
