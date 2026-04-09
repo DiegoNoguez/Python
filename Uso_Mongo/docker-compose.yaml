@@ -1,5 +1,5 @@
 services:
-  mongodb:
+  mo7ngodb:
     image: mongo:latest
     container_name: mongodb_1
     ports:
